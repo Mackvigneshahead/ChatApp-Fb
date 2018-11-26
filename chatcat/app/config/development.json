@@ -1,0 +1,12 @@
+{
+    "host":"http://localhost:8086",
+    "dbURI":"mongodb://vignesh:vignesh1,@ds247688.mlab.com:47688/chatcatappdb",
+    "sessionSecret":"Keepongoing",
+    "fb":{
+        "clientID":"2122774384649925",
+        "clientSecret":"b047d0497f9e9f7a2b6e70a5a115fdee",
+        "callbackURL":"http://localhost:8086/auth/facebook/callback",
+        "profileFields":["id","displayName","photos"],
+        "enableProof": true
+    }
+}
